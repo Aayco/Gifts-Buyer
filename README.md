@@ -116,9 +116,9 @@ The bot will then attempt to buy gifts based on your config.
 
 👨‍💻 Amiru Mohammed
 
-💬 Telegram: @Aayco
+💬 Telegram: [@Aayco](https://t.me/Aayco)
 
-🧠 Github: github.com/Aayco
+🧠 Github: [github.com/Aayco](github.com/Aayco)
 
 
 
