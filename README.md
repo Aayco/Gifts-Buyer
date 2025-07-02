@@ -39,15 +39,19 @@ Great for auto-collectors, gift senders, or bots that need to handle Telegram st
 ```bash
 git clone https://github.com/Aayco/AutoGiftBuyer.git
 cd AutoGiftBuyer
+```
 
 2. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 > Requirements file should include:
-
+```modules
 telethon
 rich
+```
 
 
 
@@ -55,6 +59,7 @@ rich
 
 The first run will auto-generate a config.json. Edit it with your details:
 
+```json
 {
   "api_id": 123456,
   "api_hash": "api hash",
@@ -71,17 +76,17 @@ The first run will auto-generate a config.json. Edit it with your details:
   "start": 100,
   "end": 500
 }
+```
 
 > 🔐 You must provide either a token or session.
-
-
-
 
 ---
 
 🚀 Run the Bot
 
+```bash
 python bot.py
+```
 
 You’ll see this banner on start:
 
