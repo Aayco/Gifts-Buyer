@@ -167,6 +167,9 @@ class Buyer:
                     await bot(functions.payments.SendStarsFormRequest(form_id=payment_form.form_id, invoice=invoice))
                     bought += 1
                     con.print(f"[green]Bought {bought}/{quantity} gifts...")
+                    if bought >= quantity:
+                        con.print("[cyan]Done, bought all gifts.")  # ✅ Added message
+                        return
                     await sleep(2)
                 except Exception as e:
                     # If User don't have enough stars
