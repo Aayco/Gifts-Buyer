@@ -178,7 +178,7 @@ class Buyer:
                         exit()
                     con.print(f"[red]Error: {str(e)}")
 
-    # ▶️ Run the bott
+    # ▶️ Run the bot
     @staticmethod
     async def run():
         if setup["token"]:
